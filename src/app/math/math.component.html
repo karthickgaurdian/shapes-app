@@ -1,0 +1,26 @@
+<hr><br><h1 align="center">math operations & shape operations</h1>
+<br><hr>
+<div class="Container" align="center">
+  <u><h3>math operations</h3></u>
+<br>
+<p>variables:</p>
+<input type="number" placeholder="enter first variable" [(ngModel)]="a">&nbsp;
+<input type="number" placeholder="enter second variable" [(ngModel)]="b">
+<br><p>addition:{{ a + b }}</p>
+<p>subraction:{{ a - b }}</p>
+<p>multiplication:{{ a * b }}</p>
+<p>division:{{ a / b }}</p>
+<button (click)="add()">+</button>
+&nbsp;&nbsp;&nbsp;
+<button (click)="sub()">-</button>
+&nbsp;&nbsp;&nbsp;
+<button (click)="mul()">*</button>
+&nbsp;&nbsp;&nbsp;
+<button (click)="div()">/</button><br>
+<input type="number" [value]="result">
+
+
+
+
+
+</div>
